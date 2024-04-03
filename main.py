@@ -127,11 +127,7 @@ class MeuApp(QMainWindow):
                 self.num2 = self.pegarDisplay()
             self.numResult = self.op
             self.mostrarDisplay(self.numResult)
-<<<<<<< Updated upstream
-        
-=======
 
->>>>>>> Stashed changes
 if __name__ == '__main__':
     app = QApplication([])
     window = MeuApp()
