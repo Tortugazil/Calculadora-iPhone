@@ -86,7 +86,7 @@ border-radius: 45%;</string>
      <string>9</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="multi">
+   <widget class="QPushButton" name="Multi">
     <property name="geometry">
      <rect>
       <x>280</x>
@@ -109,7 +109,7 @@ background-color: rgb(255, 193, 69);
      <string>x</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="subtrair">
+   <widget class="QPushButton" name="Subtrair">
     <property name="geometry">
      <rect>
       <x>280</x>
@@ -201,7 +201,7 @@ border-radius: 45%;</string>
      <string>6</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="add">
+   <widget class="QPushButton" name="Add">
     <property name="geometry">
      <rect>
       <x>280</x>
@@ -296,7 +296,7 @@ border-radius: 45%;</string>
      <string>3</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="valor">
+   <widget class="QPushButton" name="Valor">
     <property name="geometry">
      <rect>
       <x>280</x>
@@ -342,7 +342,7 @@ border-radius: 45%;</string>
      <string>0</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="virgula">
+   <widget class="QPushButton" name="Virgula">
     <property name="geometry">
      <rect>
       <x>190</x>
@@ -365,7 +365,7 @@ border-radius: 45%;</string>
      <string>,</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="divisor">
+   <widget class="QPushButton" name="Divisor">
     <property name="geometry">
      <rect>
       <x>280</x>
@@ -388,7 +388,7 @@ border-radius: 45%;</string>
      <string>÷</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="combo">
+   <widget class="QPushButton" name="Combo">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -410,7 +410,7 @@ border-radius: 45%;</string>
      <string>+/-</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="allClear">
+   <widget class="QPushButton" name="AllClear">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -434,7 +434,7 @@ border-radius: 45%;</string>
      <string>AC</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="porcentagem">
+   <widget class="QPushButton" name="Porcentagem">
     <property name="geometry">
      <rect>
       <x>190</x>
@@ -459,7 +459,7 @@ border-radius: 45%;</string>
      <string>%</string>
     </property>
    </widget>
-   <widget class="QLabel" name="outputLabel">
+   <widget class="QLabel" name="OutputLabel">
     <property name="geometry">
      <rect>
       <x>0</x>
