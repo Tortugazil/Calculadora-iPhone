@@ -23,6 +23,8 @@ class MeuApp(QMainWindow):
         self.Botao_7.clicked.connect(lambda: self.btnClicado(self.Botao_7))
         self.Botao_8.clicked.connect(lambda: self.btnClicado(self.Botao_8))
         self.Botao_9.clicked.connect(lambda: self.btnClicado(self.Botao_9))
+        self.virgula.clicked.connect(lambda: self.btnClicado(self.virgula))
+        
         
         self.add.clicked.connect(lambda: self.definirOperacao(self.add))
         self.subtrair.clicked.connect(lambda: self.definirOperacao(self.subtrair))
@@ -31,7 +33,6 @@ class MeuApp(QMainWindow):
         self.porcentagem.clicked.connect(lambda: self.porcentagem)
         self.valor.clicked.connect(self.mostraResultado)
         self.allClear.clicked.connect(self.limparDisplay)
-
 
     def mostrarDisplay(self, value):
         value = str(value).replace('.', ',')
@@ -46,14 +47,36 @@ class MeuApp(QMainWindow):
             value = float(value)
         return value
 
-
     def btnClicado(self, btn):
         if self.pegarDisplay() == 0:
             self.mostrarDisplay(btn.text())
         else:
             ultimoValor = str(self.pegarDisplay())
             self.mostrarDisplay(ultimoValor + btn.text())
+    
+    def btnClicado(self, btn):
+        if btn.text() == ',':
+            if isinstance(self.pegarDisplay(), int):
+                ultimoValor = str(self.pegarDisplay())
+                self.mostrarDisplay(ultimoValor + btn.text())
+        
+        else:
+            if isinstance(self.pegarDisplay(), int):
+                if self.pegarDisplay() == 0:
+                    self.mostrarDisplay(btn.text())
+                else:
+                    ultimoValor = str(self.pegarDisplay())
+                    self.mostrarDisplay(ultimoValor + btn.text())
 
+            else: 
+                if self.outputLabel.text()[-1] == ",":
+                    ultimoValor = self.outputLabel.text()
+                    self.mostrarDisplay(ultimoValor + btn.text())
+
+                else:
+                    ultimoValor = str(self.pegarDisplay())
+                    self.mostrarDisplay(ultimoValor + btn.text())
+        
     def add(self):
         print(f'{self.num1} + {self.num2}')
         return self.num1 + self.num2
@@ -76,8 +99,6 @@ class MeuApp(QMainWindow):
             porcento = self.num1 * porcento
         self.mostrarDisplay(porcento)
         
-        
-    
     def limparDisplay(self):
         self.num1 = 0
         self.num2 = 0
@@ -90,9 +111,7 @@ class MeuApp(QMainWindow):
         self.num1 = int(self.pegarDisplay())
         self.num2 = 0
         self.mostrarDisplay(0)
-
-    
-
+        
     def resultado(self):
         if self.op:
             self.num2 = int(self.pegarDisplay())
@@ -106,14 +125,18 @@ class MeuApp(QMainWindow):
                 self.num1 = self.pegarDisplay()
             else:
                 self.num2 = self.pegarDisplay()
-        if self.op:
             self.numResult = self.op
-        else:
             self.mostrarDisplay(self.numResult)
-
+<<<<<<< Updated upstream
         
+=======
+
+>>>>>>> Stashed changes
 if __name__ == '__main__':
     app = QApplication([])
     window = MeuApp()
     window.show()
     app.exec_()
+    
+
+    
