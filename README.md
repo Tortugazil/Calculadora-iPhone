@@ -1,9 +1,16 @@
+Calculadora iPhone.py <img src="Calculator_31111.ico" width="32px" alt="Icon">
 
-<div align="center"> # Calculadora iPhone.py <img src="Calculator_31111.ico" alt="Icon">
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyQt5](https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white)
+![SO](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+
 
 <img src="image.png" alt="Calculadora">
 
 </div>
+
 
 > Projeto desenvolvido durante o período do curso em Técnico em Desenvolvimento de Sistemas 
 
