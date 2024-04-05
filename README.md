@@ -1,6 +1,6 @@
 # Calculadora iPhone.py <img src="Calculator_31111.ico" alt="Icon">
 
-<div align="center">
+<div align="center"> </div>
 
 <img src="image.png" alt="Calculadora">
 
