@@ -1,8 +1,8 @@
-# Calculadora iPhone.py <img src="![alt text](image.png)">
+# Calculadora iPhone.py <img src="Calculator_31111.ico" alt="Icon">
 
 <div align="center">
 
-<img src="Calculator_31111.ico" alt="Calculadora">
+<img src="image.png" alt="Calculadora">
 
 > Projeto desenvolvido durante o período do curso em Técnico em Desenvolvimento de Sistemas 
 
