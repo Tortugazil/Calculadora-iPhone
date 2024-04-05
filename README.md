@@ -1,6 +1,9 @@
 # Calculadora iPhone.py
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?
+style=for-the-badge&logo=python&logoColor=white)
+![PyQt5](https://img.shields.io/badge/Q-%23217346.svg?
+style=for-the-badge&logo=Qt&logoColor=white)
 ![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
