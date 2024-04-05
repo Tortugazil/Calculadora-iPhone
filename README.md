@@ -1,4 +1,4 @@
-# Calculadora iPhone.py <img src="Calculator_31111.ico" alt="Icon">
+# Calculadora iPhone.py
 
 <div align="center">
 
